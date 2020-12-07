@@ -1,0 +1,78 @@
+see guide in neog.camp 
+
+gui - more interactive than cli 
+
+learnt alert 
+
+learnt promt 
+eg var username = promt("give me your username " + username)
+
+
+we were told the story of tanay's interview, I will not tell that here It will be very
+offtopic but it is worth listening. 
+he told 
+in short never give up 
+
+so here the actual lecture started
+
+put script in last of body 
+
+commit in git is very important
+
+
+created a button , click me, right now nothing will happen on  clicking on it as there 
+is nothing assigned to it. Id is a referce  for js (in layman terms we can say it is used 
+to link javascript and html ). Id also helps in DOM Scripting. 
+
+
+now we need to listen to event here it is click event, we do it by adding event listener 
+and then event listener will call a function who does the actual job we wanna get it.
+
+
+queryselector - Hey browser i need a element with id "anyRandomId".addeventListener
+
+(click,function{})
+
+
+
+qna
+
+
+api-if you want to program an app, we use this "any random,say accuweather api " interface 
+inshort to make a program understand what he needs to do,we need API
+
+cli-comand line interface 
+gui- user is talking to program via graphics 
+library vs api  
+hover event 
+book - elquent javascript
+
+back to lecture
+call back- function name will call the fn 
+
+now we created a text area, styled it also placed a placeholder in it .
+
+
+how to read from txtarea by '.VALUE '
+
+
+exercise 
+we select id by #
+and class by .
+
+
+
+
+-----------------see input output processing-------------
+
+
+
+#mock server
+
+
+how to read from an Api 
+
+example - var url = "www.url.com";
+
+fetch(url).then(response => response.json())
+.then(json =>console.log(json))

@@ -1,0 +1,60 @@
+
+body{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    display:block;
+    margin: auto;
+    
+  
+  }
+#inputtext{
+    
+      width: 80%;
+      height: 10vh;
+      display: block;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      max-width:600px;
+      margin: auto;
+      border-width:6px;
+      letter-spacing: 1px;
+      box-shadow: 1px 1px 1px #999;
+
+}
+button {  display: inline-block; 
+    border-radius: 4px; 
+    background-color:cornflowerblue;
+      border: none;  
+      color: #FFFFFF; 
+       text-align: center;  
+       font-size: 28px; 
+        padding: 20px; 
+         width: 200px; 
+          transition: all 0.5s;  
+          cursor: pointer;  
+       
+   margin: 5px;}
+   button:hover {
+    padding-right: 30px;
+
+  }
+#outputtext{ border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    max-width:600px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.25rem;}
+
+nav{
+    text-align: center;
+    background-color: gold;
+    padding: 1rem 1rem 1rem 1rem;
+}
+footer{
+    text-align: center;
+    background-color: gold;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration-color: cornflowerblue;
+}
